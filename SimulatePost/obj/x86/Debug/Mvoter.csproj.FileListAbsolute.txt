@@ -1,0 +1,16 @@
+D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\bin\Debug\SimulatePost.exe
+D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\bin\Debug\SimulatePost.pdb
+D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\obj\x86\Debug\SimulatePost.MainFormv.resources
+D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\obj\x86\Debug\SimulatePost.Properties.Resources.resources
+D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\obj\x86\Debug\SimulatePost.exe
+D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\obj\x86\Debug\SimulatePost.pdb
+J:\Voter\0.3\SimulatePost\obj\x86\Debug\SimulatePost.exe
+J:\Voter\0.3\SimulatePost\obj\x86\Debug\SimulatePost.pdb
+J:\Voter\0.3\SimulatePost\bin\Debug\SimulatePost.exe
+J:\Voter\0.3\SimulatePost\bin\Debug\SimulatePost.pdb
+J:\Voter\0.3\SimulatePost\obj\x86\Debug\SimulatePost.MainForm.resources
+J:\Voter\0.3\SimulatePost\obj\x86\Debug\SimulatePost.Properties.Resources.resources
+J:\Voter\0.3\SimulatePost\obj\x86\Debug\Mvoter.csproj.GenerateResource.Cache
