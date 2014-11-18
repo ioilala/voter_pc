@@ -34,3 +34,8 @@ D:\kuaipan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\
 D:\kuaipan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
 H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\SimulatePost.exe
 H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\SimulatePost.pdb
+H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\bin\Release\SimulatePost.exe
+H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\bin\Release\SimulatePost.pdb
+H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\SimulatePost.MainForm.resources
+H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\SimulatePost.Properties.Resources.resources
+H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\Mvoter.csproj.GenerateResource.Cache

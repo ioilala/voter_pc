@@ -17,15 +17,17 @@ using System.Timers;
  * Author:王胜 
  * E-mail:hust_wsh@qq.com
  * Date:2014-11-14
- * Version:0.3.5
+ * Version:0.3.6
  * History:
  * 1.刷人气;
  * 2.自动换IP;
  * 3.本机启动自动获取IP段;
+ * 4.主IP段投完后自动切换备用IP段投票
+ * 5.定时功能
+ * 6.刷人气开关
  * Add:
- * 1.主IP段投完后自动切换备用IP段投票
- * 2.定时功能
- * 3.刷人气开关
+ * 1.增加两次刷票之间的时间，防止DDOS攻击检测
+ * 2.修改
  * Todo:
  */
 namespace SimulatePost
@@ -324,12 +326,7 @@ namespace SimulatePost
                 }
                 catch (Exception ex)
                 {
-                    //sw.WriteLine("===" + ex.Message + "===");
-                    this.Invoke(new EventHandler(delegate
-                    {
-                        //OutMsg("IP地址" + ipCurrent + "被占用!");
                         OutMsg(ipCurrent+"投票异常:"+ex.Message);
-                    }));
                 }
                 finally
                 {
@@ -340,6 +337,11 @@ namespace SimulatePost
                         lbIpVoteCountState.Text = ipTestedCount.ToString() + "/" + ipTotalCount.ToString();
                     }));                    
                 }
+                //两次投票之间休眠一段时间
+                Random randTime = new Random(DateTime.Now.Millisecond);
+                int sleeptime=randTime.Next(1000, 5000);
+                OutMsg("休眠" + sleeptime + "ms");
+                Thread.Sleep(sleeptime);
             }
             this.Invoke(new EventHandler(delegate
             {

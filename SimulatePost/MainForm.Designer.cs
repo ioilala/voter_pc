@@ -58,6 +58,7 @@
             this.lbRemoteVoteCount = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.cmbRankStart = new System.Windows.Forms.ComboBox();
             this.cbTime3 = new System.Windows.Forms.CheckBox();
             this.cbTime2 = new System.Windows.Forms.CheckBox();
             this.cbTime1 = new System.Windows.Forms.CheckBox();
@@ -67,6 +68,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.tbTime1 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -74,13 +76,11 @@
             this.tbBeiStartIP = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.tbBeiEndIP = new System.Windows.Forms.TextBox();
             this.tbBeiGateWay = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.cbVoteHot = new System.Windows.Forms.CheckBox();
             this.cbVote = new System.Windows.Forms.CheckBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.cmbRankStart = new System.Windows.Forms.ComboBox();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -400,6 +400,20 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "定时刷票";
             // 
+            // cmbRankStart
+            // 
+            this.cmbRankStart.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbRankStart.FormattingEnabled = true;
+            this.cmbRankStart.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4"});
+            this.cmbRankStart.Location = new System.Drawing.Point(299, 33);
+            this.cmbRankStart.Name = "cmbRankStart";
+            this.cmbRankStart.Size = new System.Drawing.Size(39, 20);
+            this.cmbRankStart.TabIndex = 4;
+            // 
             // cbTime3
             // 
             this.cbTime3.AutoSize = true;
@@ -484,6 +498,15 @@
             this.label11.TabIndex = 2;
             this.label11.Text = "时间:";
             // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(243, 36);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(59, 12);
+            this.label18.TabIndex = 2;
+            this.label18.Text = "排名限额:";
+            // 
             // btnExit
             // 
             this.btnExit.Location = new System.Drawing.Point(302, 383);
@@ -555,15 +578,6 @@
             this.label16.TabIndex = 2;
             this.label16.Text = "DNS：";
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(193, 28);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(53, 12);
-            this.label17.TabIndex = 2;
-            this.label17.Text = "结束IP：";
-            // 
             // tbBeiEndIP
             // 
             this.tbBeiEndIP.Location = new System.Drawing.Point(246, 25);
@@ -579,6 +593,15 @@
             this.tbBeiGateWay.Size = new System.Drawing.Size(126, 21);
             this.tbBeiGateWay.TabIndex = 3;
             this.tbBeiGateWay.Text = "115.156.232.254";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(193, 28);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(53, 12);
+            this.label17.TabIndex = 2;
+            this.label17.Text = "结束IP：";
             // 
             // cbVoteHot
             // 
@@ -606,29 +629,6 @@
             this.cbVote.UseVisualStyleBackColor = true;
             this.cbVote.CheckedChanged += new System.EventHandler(this.cbVote_CheckedChanged);
             // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(243, 36);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(59, 12);
-            this.label18.TabIndex = 2;
-            this.label18.Text = "排名限额:";
-            // 
-            // cmbRankStart
-            // 
-            this.cmbRankStart.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbRankStart.FormattingEnabled = true;
-            this.cmbRankStart.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4"});
-            this.cmbRankStart.Location = new System.Drawing.Point(299, 33);
-            this.cmbRankStart.Name = "cmbRankStart";
-            this.cmbRankStart.Size = new System.Drawing.Size(39, 20);
-            this.cmbRankStart.TabIndex = 4;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -650,7 +650,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CGCL刷票器0.3.5";
+            this.Text = "CGCL刷票器0.3.6";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
             this.Load += new System.EventHandler(this.MainForm_Load);
