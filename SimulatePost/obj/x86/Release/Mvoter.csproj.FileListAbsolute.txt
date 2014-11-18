@@ -23,3 +23,14 @@ D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\obj\x86\Releas
 D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\obj\x86\Release\SimulatePost.Properties.Resources.resources
 D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
 D:\kuaipan\PostGraduateCareer\project\work\Voter\0.3\SimulatePost\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+D:\kuaipan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\SimulatePost.exe
+D:\kuaipan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\SimulatePost.pdb
+D:\kuaipan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\bin\Release\SimulatePost.exe
+D:\kuaipan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\bin\Release\SimulatePost.pdb
+D:\kuaipan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\ResolveAssemblyReference.cache
+D:\kuaipan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\SimulatePost.MainForm.resources
+D:\kuaipan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\SimulatePost.Properties.Resources.resources
+D:\kuaipan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+D:\kuaipan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\SimulatePost.exe
+H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\SimulatePost.pdb

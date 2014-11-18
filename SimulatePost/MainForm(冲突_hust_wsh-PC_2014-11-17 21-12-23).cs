@@ -108,8 +108,7 @@ namespace SimulatePost
             {
                 if (NetworkSetting.isDHCPEnabled())
                 {
-                    //MessageBox.Show();
-                    OutMsg("当前为DHCP模式，可能不支持!");
+                    MessageBox.Show("当前为DHCP模式，可能不支持!");
                     //return;
                 }
                 succCount = 0;
@@ -422,15 +421,12 @@ namespace SimulatePost
                 {
                     //获取网站排名
                     thGetVoteShow_DoWork();
-                    this.Invoke(new EventHandler(delegate
+                    if (Convert.ToInt32(lbRemoteRank.Text) > (cmbRankStart.SelectedIndex+1))//排名跌落到2开外，才刷票
                     {
-                        if (Convert.ToInt32(lbRemoteRank.Text) > (cmbRankStart.SelectedIndex + 1))//排名跌落到2开外，才刷票
-                        {
-                            flagOnceMore = true;
-                            flagIpVoteStart = false;
-                            btnIPVote_Click(null, null);
-                        }
-                    }));
+                        flagOnceMore = true;
+                        flagIpVoteStart = false;
+                        btnIPVote_Click(null, null);
+                    }
                 }
             }
         }
@@ -501,7 +497,7 @@ namespace SimulatePost
         {
             this.Invoke(new EventHandler(delegate
             {
-                rtbMsg.AppendText("\r\n"+msg);
+                rtbMsg.AppendText(msg + "\n");
                 rtbMsg.ScrollToCaret();
             }));
         }
