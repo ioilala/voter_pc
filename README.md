@@ -1,5 +1,5 @@
  * Name:CGCLË¢Æ±Æ÷
- * Author:ÍõÊ¤ 
+ * Author:hust_wsh
  * E-mail:hust_wsh@qq.com
  * Date:2014-11-14
  * Version:0.3.6
