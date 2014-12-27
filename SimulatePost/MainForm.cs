@@ -29,6 +29,7 @@ using System.Timers;
  * 1.增加两次刷票之间的时间，防止DDOS攻击检测
  * 2.修改
  * Todo:
+ * 启动时获取本地网关，退出时恢复网关
  */
 namespace SimulatePost
 {
@@ -350,8 +351,7 @@ namespace SimulatePost
             }));
             ShowBusyUI(false);
             SetIpVoteBtnState(false);
-            //恢复原始IP 
-            RestoreOriginIP();
+            
             if (flagOnceMore)
             {
                 tbIpStart.Text = tbBeiStartIP.Text;
@@ -363,6 +363,8 @@ namespace SimulatePost
             {
                 tbIpStart.Text = "211.69.198.1";
                 tbIpStart_TextChanged(null, null);
+                //恢复原始IP 
+                RestoreOriginIP();
             }
         }
         //后台获取投票信息
@@ -603,7 +605,7 @@ namespace SimulatePost
             else
             {
                 NetworkSetting.SetIPAddress(ipOrigin, "255.255.255.0", gatewayOrigin);
-                NetworkSetting.SetDNS(new string[] { dnsOrigin, "8.8.8.8" });
+                //NetworkSetting.SetDNS(new string[] { dnsOrigin, "8.8.8.8" });
             }
         }
         #endregion

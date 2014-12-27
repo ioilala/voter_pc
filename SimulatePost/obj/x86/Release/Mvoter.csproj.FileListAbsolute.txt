@@ -39,3 +39,4 @@ H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\bin\Rele
 H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\SimulatePost.MainForm.resources
 H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\SimulatePost.Properties.Resources.resources
 H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\Mvoter.csproj.GenerateResource.Cache
+H:\KuaiPan\PostGraduateCareer\project\work\Voter\Voter_git\SimulatePost\obj\x86\Release\Mvoter.csprojResolveAssemblyReference.cache
