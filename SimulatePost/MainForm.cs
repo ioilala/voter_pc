@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +14,7 @@ using System.Timers;
 
 /*
  * Name:CGCL刷票器
- * Author:王胜 
+ * Author:hust_wsh
  * E-mail:hust_wsh@qq.com
  * Date:2014-11-14
  * Version:0.3.6
