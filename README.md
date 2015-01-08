@@ -1,14 +1,14 @@
- * Name:CGCL刷票器
+ * Name:CGCL Voter
  * Author:hust_wsh
  * E-mail:hust_wsh@qq.com
  * Date:2014-11-14
  * Version:0.3.6
  * History:
- * 1.刷人气;
- * 2.自动换IP;
- * 3.本机启动自动获取IP段;
- * 4.主IP段投完后自动切换备用IP段投票
- * 5.定时功能
- * 6.刷人气开关
+ * 1.add popularity scores;
+ * 2.auto switch IP;
+ * 3.get the IP range automatically at the startup;
+ * 4.Automatically switch from the main IP range to the reserved one
+ * 5.timing function
+ * 6.a switch to control whether or not to add popularity score
  * Add:
- * 1.增加两次刷票之间的时间，防止DDOS攻击检测
+ * 1.increase the time between two voting to prevert DDOS detection
