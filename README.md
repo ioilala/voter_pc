@@ -12,3 +12,4 @@
  * 6.a switch to control whether or not to add popularity score
  * Add:
  * 1.increase the time between two voting to prevert DDOS detection
+![](http://ioilala.sinaapp.com/img/4.png)
